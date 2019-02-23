@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.jpg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>
+        My Portfolio
+    </title>
+    <meta charset="utf-8">
+    <meta name="description" content="Personal webpage of Siddharth Panda">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="top-menu-btns-header">
+        <div  class="top-menu-btns">
+            <button id="home-btn" class="btn btn-secondary top-btns" >Home</button>
+            <button id="about-btn" class="btn btn-secondary top-btns" >About</button>
+            <button id="projects-btn" class="btn btn-secondary top-btns" >Projects</button>
+            <button id="contact-btn" class="btn btn-secondary top-btns" >Contact</button>
+        </div> 
+    </div>
+
+    <div class="left-menu">
+        <!-- <div class="left-menu-btns">
+            <div><button id="left-home-btn" class="btn btn-secondary left-btns" >Home</button></div>
+            <div><button id="left-about-btn" class="btn btn-secondary left-btns" >About</button></div>
+            <div><button id="left-projects-btn" class="btn btn-secondary left-btns" >Projects</button></div>
+        </div> -->
+    </div>
+
+    <div class="right-side-menu">
+<!--             <button id="right-github-btn" onclick="window.location.href='http://www.github.com/sspanda92'" class="btn btn-secondary right-btns" > Github</button> -->  
+  </div>
+    </div>
+        <div class="main-div">
+            <div class="home-div">
+                <div><h2 class="home-div-name"> Hi, I'm Siddharth Panda</h2></div>
+                <div><h6 class="home-div-work">Technical Sales Specialist (CO-OP) at IBM</h6></div>
+                <div>
+                    <h6 class="home-div-caption">Yes!!! My surname is Panda - for real<img class="icon" src="./home_emoji.png" alt="home_emoji"/></h6>     
+                </div>                               
+                <div class="home-pic">
+                    <img src="./profile_pic.png" class="profile-pic" alt="Profile Pic"/>
+                </div>
+                <div><h6 class="resume text-center" data-toggle="modal" data-target="#resumeModal">View Resume</h6></div>
+                <div class="modal fade" id="resumeModal" role="dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <p>Resume</p>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body">
+                            <object class="resume-file" data="resume.pdf" type="application/pdf"> 
+                                <p>You don't have the plugin to view this file <a href="resume.pdf">Click here to
+                                download the PDF file.</a></p>  
+                            </object>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home-details">
+                    <p>I am a graduate student at UT Dallas majoring in Computer Science with specialization in Data Science track. I am seeking for fulltime opportunities.</p>
+                    <p>Currently, working as a Technical Sales Specialist (CO-OP) at IBM where designed a healthcare domain chat bot application in Node.js, Express.js integrated with IBM Bluemix services – Watson Assistant, Speech-To-Text and Text-To-Speech</p>
+                    <p>Prior to joining UT Dallas for my masters, I was working as a software engineer at Wipro technologies which I joined as a campus recruit. I have 3 years of industry standard experience as a Web Developer with the skillset C#, ASP.NET, ADO.NET, HTML, CSS, Web API, WCF, Web Services, LinQ, MVC, JavaScript, Angular 2.0, JQuery, AJAX, SQL Server.</p>  
+                    <p>During my tenure in Wipro, I developed an Auto Insurance Web Application from scratch with a team of three during training. Then, worked as a developer in an IAM web application project. I really enjoyed and learned a lot both professionally and personally during my time in Wipro.</p>
+                    <p>Now, I am looking for opportunities to work on live projects along with my academics and constantly upgrading my skills by learning something new every passing day.</p>
+                </div>
+            </div>
+
+            <div class="responsive-timeline">
+                <div id="timelineContainer">
+                    <div class="project-name">Timeline</div>
+                    <div id="timeline">
+                        <dl class="timeline timelineLeft">
+                            <dt class="event"><a class="open" style="font-size: 1.1em;">Technology Sales Specialist at IBM</a></dt>
+                            <dd class="timelineEvent" id="event_1">
+                                <div class="event_content">
+                                <div class="timeline-content">
+                                    <p></p>
+                                    <p>
+                                        Designed a healthcare domain chat bot application in Node.js, Express.js integrated with IBM Bluemix services – Watson Assistant, Speech-To-Text and Text-To-Speech
+                                    </p>
+                                    <p>
+                                        Developed a stormwater management web application - HTML, CSS, JavaScript, jQuery, Bootstrap, Node.js, Google Maps APIs, Text to Speech
+                                    </p>
+                                </div>
+                                </div>
+                            </dd>
+                        </dl>
+                        <div class="timeline-icon">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/213565/jgm_business.png" alt="IBM">
+                        </div>
+                        <dl class="timeline timelineRight">
+                            <dt class="event"><a class="open" style="font-size: 1.1em;">Master of Science at UT Dallas</a></dt>
+                            <dd class="timelineEvent" id="event_2">
+                                <div class="event_content">
+                                <div class="timeline-content">
+                                    <p>
+                                    <p>Started studying M.S. in Computer Science at The University of Texas at Dallas (GPA: 3.52/4)</p>
+                                </div>
+                                </div>
+                            </dd>
+                        </dl>
+                        <div class="timeline-icon">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/213565/jgm_chart.png" alt="UtDallas Schools">
+                        </div>
+                        <dl class="timeline timelineLeft">
+                            <dt class="event"><a class="open" style="font-size: 1.1em;">Software Engineer at Wipro Technologies</a></dt>
+                            <dd class="timelineEvent" id="event_3">
+                                <div class="event_content">
+                                <div class="timeline-content">
+                                    <p>
+                                    <p>Worked on the development & maintenance of an identity & access management application, leading team of 12 during deployment processes</p>
+                                    <p>
+                                        Technologies: ASP.NET, C#, REST API, WCF, Web Services, AJAX, MS SQL Server
+                                    </p>
+                                </div>
+                                </div>
+                            </dd>
+                        </dl>
+                        <div class="timeline-icon">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/213565/jgm_business.png" alt="Wipro">
+                        </div>
+                        <dl class="timeline timelineRight">
+                            <dt class="event"><a class="open" style="font-size: 1.1em;">Bachelor in Technology</a></dt>
+                            <dd class="timelineEvent" id="event_3">
+                                <div class="event_content">
+                                <div class="timeline-content">
+                                    <p>
+                                    <p>Graduated from KIIT University with a Bachelor's Degree in Electrical Engineering (GPA: 8.54/10)</p>
+                                </div>
+                                </div>
+                            </dd>
+                        </dl>
+                        <div class="timeline-icon">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/213565/jgm_chart.png" alt="KIIT">
+                        </div>
+                    </div>
+                    </dl>
+                </div>
+            </div>
+            <div class="projects-div fullWidth">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4>Projects</h4>
+                        </div>
+                        
+                        <div class="col-md-12">
+                            <div class="slideshow-container">
+                                <div class="mySlides ">
+                                    <img src="./ethereum.jpg" alt=""/>
+                                </div>
+                                <div class="mySlides ">
+                                    <img src="./landmark_recogniton.jpg" alt=""/>
+                                </div>
+                                <div class="mySlides ">
+                                    <img src="./morris_game.jpg" alt=""/>
+                                </div>
+                                <div class="mySlides ">
+                                    <img  src="./maze.jpg" alt=""/>
+                                </div>
+                                <div class="mySlides ">
+                                    <img src="./word_puzzle.png" alt=""/>
+                                </div>
+                            </div>
+                
+                            <div class="slideshow-controller">
+                                <span class="dot project-imgs" id="ethereum"  onclick="currentSlide(1)"></span> 
+                                <span class="dot project-imgs" id="landmark_recogniton" onclick="currentSlide(2)"></span> 
+                                <span class="dot project-imgs" id="morris_game" onclick="currentSlide(3)"></span> 
+                                <span class="dot project-imgs" id="maze" onclick="currentSlide(4)"></span> 
+                                <span class="dot project-imgs" id="word_puzzle"  onclick="currentSlide(5)"></span> 
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>  
+
+                <div class="project-description">
+                    <div class="ethereum description-div">
+                            <h4>Ethereum Token Analysis  </h4>
+                            <p> The blockchain is an incorruptible digital ledger of economic transactions that can be programmed to record not just financial transactions but virtually everything of value.
+                                Block chain is a growing list of records, called blocks, which are linked using cryptography (cryptography is the practice and study of techniques for secure communication in the presence of third parties).
+                            </p>
+                            <p>
+                                Ethereum is a distributed public block chain network that focuses on running programming code of any decentralized application. Ether, a decentralized digital currency, also known as ETH is a cryptocurrency whose blockchain is generated by the Ethereum platform.
+                            </p>
+                            <p>
+                                In this project, we ( a team of 3 ) explored BNB token data to analyze and predict various features of buyers & sellers among 36 other tokens using R libraries.
+                            </p>
+                            <a href="https://sspanda92.github.io/" target="blank"> Click here for more Info</a>
+                    </div>
+                    <div class="landmark_recogniton hidden description-div">
+                            <h4>Landmark Recognition</h4>
+                            <p>
+                                    The Landmark recognition project aims to correctly classify landmarks from a set of images. Landmark recognition uses OpenCV to predict landmark labels directly from image pixels, to help people better understand and organize their photo collections.
+                                    Developed in python. 
+                            </p>
+                            <a href="https://github.com/sspanda92/Landmark-Recognition" target="blank">View in Github</a>
+                    </div>
+                    <div class="morris_game hidden description-div">
+                            <h4>Morris Game</h4>
+                            <p>
+                                    Designed an artificially intelligent Nine Men's Morris game. It predicts
+                                    next best move in game of computer player.
+                            </p>
+                            <a href="https://github.com/sspanda92/Nine-Men-Morris-Game" target="blank">View in Github</a>
+                    </div>
+                    <div class="maze hidden description-div">
+                            <h4>Maze Creation</h4>
+                            <p>
+                                    Created a maze with only one entry to exit path of any size depending
+                                    on user’s input - Java disjoint set class.
+                            </p>
+                            <a href="https://github.com/sspanda92/Maze-Generation" target="blank">View in Github</a>
+                    </div>
+                    <div class="word_puzzle hidden description-div">
+                            <h4>Word Puzzle</h4>
+                            <p>
+                                    Solved a word puzzle of any size based on user’s input for rows and
+                                    columns coded in Java hash tables.
+                            </p>       
+                            <a href="https://github.com/sspanda92/Word-Puzzle" target="blank">View in Github</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-div">
+            <a href="https://www.linkedin.com/in/siddharth-panda-33203477/" target="blank" title="Linkedin" class="fa fa-linkedin social-buttons"></a>
+            <img id="close_button" src="./close_button.png" title="Click to close" alt="close button"/>
+            <a href="https://www.facebook.com/" class="fa fa-facebook social-buttons" title="Facebook"  target="blank"></a>
+            <a href="https://twitter.com/" class="fa fa-twitter social-buttons" title="Twitter"  target="blank"></a> 
+            <a  href="mailto:siddharth.panda16@gmail.com" class="fa-mail" target="_top" >
+                    <img src="./send_mail.png" class="contact-sendmail" title="Click to send e-mail" alt="Email Icon"/>
+            </a>
+        </div>
+    </div>
+    <footer >
+        <div class="footer-div">
+            <div>Designed by Siddharth Panda
+                <!-- <div>
+                        <a  href="https://github.com/sspanda92/" target="blank" >
+                            <img src="./github_img.png" class="icon" title="Click for Github Profile" alt="Github Icon"/>
+                        </a>
+                        <a  href="mailto:siddharth.panda16@gmail.com" target="_top" >
+                            <img src="./send_mail.png" class="icon" title="Click to send e-mail" alt="Email Icon"/>
+                        </a>
+                </div> -->
+            </div>
+        </div>
+        
+    </footer>
+    <script src="./jScript.js"></script>
+</body>
+</html>
