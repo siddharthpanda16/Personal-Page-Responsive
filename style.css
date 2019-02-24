@@ -457,6 +457,7 @@ img {
 .timeline-content{
   min-height: 309px;
   overflow: scroll;
+  overflow: hidden;
   -webkit-overflow-scrolling: touch;
   max-height: 300px;
   text-align: center;
@@ -467,6 +468,7 @@ img {
   .timeline-content{
     min-height: 309px;
     overflow: scroll;
+    overflow: hidden;
     -webkit-overflow-scrolling: touch;
     max-height: 300px;
     text-align: center;
